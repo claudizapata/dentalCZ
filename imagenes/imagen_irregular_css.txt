@@ -1,0 +1,36 @@
+background: url(foto.png);
+border-radius: 30% 70% 70% 30% / 30% 30% 30% 70%;
+width: 400px;
+height: 400px;
+margin: 0 auto;
+
+
+:root{
+	scroll-behavior: smooth;
+	--orange:#FF7143;
+	--blue: #5454d4;
+}
+
+.container{
+	<!--backgrounf-color: var(--orange);-->
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 80px 0;
+}
+.nav{
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: sapce-between;
+}
+
+.nav_menu{ (para la imagen hamburguesa)
+	background-color: var(--orange);
+	width: 35px;
+	cursor: pointer;
+	z-index: 100;
+	border-raidus: 5px;
+}
+

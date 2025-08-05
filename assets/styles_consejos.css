@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1em;
+  }  
+  body {
+    margin: 0;    
+  }  
+  /* Style the header */
+  header {
+    display: flex;
+    flex-direction: column;
+    margin: 0;   
+    height: auto;
+  }
+  #header_titulo{
+    font-size: 3em;
+    
+  }
+/*Navbar total*/
+.topnav{
+    display: flex;
+    justify-content: stretch;
+    overflow: hidden;    
+    list-style: none;
+    background: rgba(151, 188, 227, 0.842);
+    color: black;
+    position: fixed;
+    padding: .8rem;
+    transition: all 0.5s linear 0s;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+   /*  margin-bottom: .8em; */
+    /*z-index: 1;*/
+  }
+  .cambiar-topnav{
+    background-color: #c3f0fa;
+}   
+  /* Navbar links */
+   .topnav a {
+    color: black;
+    font-size: 1.2em;     
+    text-decoration: none;
+    align-content: space-around;
+    padding: .5em;
+  }  
+  /* Links - change color on hover */
+  .topnav a:hover {    
+    color: rgb(136, 239, 227);
+    font-weight: bold;    
+  }  
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-align: left;
+    color: rgba(159, 190, 224, 0.842) ;
+    background-color: #f1f1f1;
+    padding: 3em;    
+  }
+.titulo_consejos{
+    color: black;
+    font-size: 3em;
+}
+.subtitulo_consejos{
+  color: black;
+  font-size: 1.8em;
+  font-weight: normal;
+}
+.img_muelitas{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);       
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: 2em;
+
+}
+
+/*Hasta acá el HEADER*/
+.container_consejos{
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.caja_cepillar{
+  margin: 2em;
+  padding: 0.4rem;
+  width: 40%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);   
+
+}
+.caja_cepillar img{
+    width: 100%;
+    height: auto;    
+}
+/*Footer*/
+footer{
+    height: auto;
+    color: black;
+    margin:0;
+    margin-top: 3em;
+    margin-bottom: 0;
+    background-color: #f5fcfe; 
+}
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgba(151, 188, 227, 0.842);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 100;
+  }
+  #back-to-top:hover {
+    background-color: #0056b3;
+  }
+.footer_links{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+.footer_link_direccion{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;   
+}
+.menu__titulo{
+    font-size: 1.2em;
+    list-style-type: none;
+    color: black;
+    font-weight: bold;
+    padding: .4em;
+}
+.footer_link{
+    display: flex;
+    padding: 1em;    
+}
+.menu__item{
+    text-decoration: none;
+    padding: .4em;
+    list-style-type: none;
+}
+.menu__item:hover{
+    text-decoration: none;
+}
+.nav__ubicacion{    
+    justify-content: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu__derechos{
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
