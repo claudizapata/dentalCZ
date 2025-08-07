@@ -14,16 +14,18 @@
     display: flex;
     flex-direction: column;
     margin: 0;   
-    height: auto;
+    height: 60vh;
+    margin: 0;
+    text-align: center;
+    background-color: #f1f1f1;
   }
   #header_titulo{
     font-size: 3em;
-    
   }
 /*Navbar total*/
 .topnav{
     display: flex;
-    justify-content: stretch;
+    position:absolute;
     overflow: hidden;    
     list-style: none;
     background: rgba(151, 188, 227, 0.842);
@@ -32,9 +34,8 @@
     padding: .8rem;
     transition: all 0.5s linear 0s;
     width: 100%;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: .8em;    
+    font-size: 1em;
+    margin-top: 0; 
   }
   .cambiar-topnav{
     background-color: #c3f0fa;
@@ -57,17 +58,17 @@
     justify-content: center;
     align-items: center;    
     margin: 0;
-    text-align: left;    
-    background-color: #f1f1f1;
-    padding: 6em;
+    text-align: left;
+    padding-top: 10vh;   
+    
   }
   .img_caja{
     padding-right: 6em;
   }
   .img_header{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);       
-    width: 310px;
-    height: 300px;   
+    width: 18em;
+    height: 30em;   
     border-radius: 30px;
   }
 .titulo_consejos{
@@ -78,7 +79,6 @@
   color: black;
   font-size: 1.8em;
   font-weight: normal;
-
 }
 /*hasta acá el header*/
 
@@ -89,7 +89,6 @@
   align-items:inherit;
   padding: 2em;
   margin-top: 2em;
-  
 }
 .main_opcion{
   text-align: center;
