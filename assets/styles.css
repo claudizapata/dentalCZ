@@ -227,12 +227,10 @@ footer{
     header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;    
     margin: 1em;   
     height: 10vh;
-    background: none;    
-    color: white ;
+    background: none;        
     font-size: 1em;
     padding-top: 1em;
     }    
@@ -244,6 +242,7 @@ footer{
     }
      #header_titulo{
       background-color: rgba(151, 188, 227, 0.842);
+      color: black;
      font-size: 1.3em;
      text-align: left;
      padding: 1rem;
