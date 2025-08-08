@@ -1,4 +1,4 @@
-
+ 
 * {
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
@@ -109,6 +109,9 @@
     font-size: 1.3em;    
     width: 15%;
     font-weight: bold;
+}
+.img_caja2{
+  display: none;
 }
 .caja_turno{
   display: flex;
@@ -311,7 +314,13 @@ footer{
 #consejos{
   display: none;
 }
+.no_link{
+  display: none;
+}
 .img_caja{
+  display: none;
+}
+.img_caja2{
   width: 10vw;
   height: 5vh;      
 }
