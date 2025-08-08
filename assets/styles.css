@@ -321,6 +321,7 @@ footer{
   display: none;
 }
 .img_caja2{
+  display: block;
   width: 10vw;
   height: 5vh;      
 }
