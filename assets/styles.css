@@ -270,14 +270,14 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);    
     border-radius: 10px;  
 }
 .parrafo_about{ 
-     padding: 1em;
+     padding: .5em;
     height: auto;
-    width: 80%;
+    width: 100%;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);    
     border-radius: 10px;    
