@@ -32,7 +32,7 @@
     position:absolute;
     overflow: hidden;    
     list-style: none;
-    background: rgba(151, 188, 227, 0.842);
+    background: #97bce3d7;
     color: black;
     position: fixed;
     padding: .8rem;
@@ -231,9 +231,8 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;    
-    margin: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    /* margin: 1rem; */
+    margin: 0;   
     height: auto;
     background: none;  
     }
@@ -245,7 +244,7 @@ footer{
     }
      #header_titulo{
       /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);     */
-      border-radius: 10px 10px 0px 0px;
+      /* border-radius: 10px 10px 0px 0px; */
       background-color: rgba(151, 188, 227, 0.842);
       color: black;
      font-size: 1.2rem;
@@ -275,7 +274,7 @@ footer{
     margin-top: 1rem;
     padding: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);    
-    border-radius: 10px;  
+    border-radius: 5px;  
 }
 .parrafo_about{ 
      padding: .5em;
@@ -283,7 +282,7 @@ footer{
     width: 100%;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);    
-    border-radius: 10px;    
+    border-radius: 5px;    
     font-size: .9rem;
 }
 .titulo_about{
@@ -298,7 +297,7 @@ footer{
     margin-right: 0;
     color: black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);    
-    border-radius: 10px;    
+    border-radius: 5px;    
 }
 .img_servicio{
     display: flex;
@@ -306,7 +305,7 @@ footer{
     padding: .3em;
     margin: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);    
-    border-radius: 10px;    
+    border-radius: 5px;    
     font-size: .8em;    
     width: 30%;
     font-weight: bold;    
@@ -322,7 +321,7 @@ footer{
 }
 .img_caja2{
   display: block;
-  width: 10vw;
+  width: 15vw;
   height: 5vh;      
 }
 
@@ -359,7 +358,7 @@ footer{
     margin:1em;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #f5fcfe; 
+    background-color: #97bce3d7; 
 }
 #back-to-top {
     display: none;
@@ -417,7 +416,7 @@ footer{
     text-decoration: none;
     padding: .4em;
     list-style-type: none;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 .menu__item:hover{
     text-decoration: none;
