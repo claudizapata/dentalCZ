@@ -242,21 +242,25 @@ footer{
     .zoomIn{
       font-size: 2em;
     }
+    .caja_titulo_header{
+      margin: 0;
+      background-color: rgba(151, 188, 227, 0.842);
+      padding: 1rem;
+      font-weight: bold;
+    }
      #header_titulo{
       /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);     */
       /* border-radius: 10px 10px 0px 0px; */
-      background-color: rgba(151, 188, 227, 0.842);
+      /* background-color: rgba(151, 188, 227, 0.842); */
       color: black;
      font-size: 1.2rem;
      text-align: left;
-     padding: 1rem;
     }
     #header_dra{
       background-color: #95acc7;
       color: white;
       text-align: left;
-     padding: 2rem;
-     padding-left: 1rem;
+      padding: 1rem;     
       font-size: .9rem;
       margin: 0;
     }
@@ -292,7 +296,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;    
-    margin-top: 1cqh;
+    margin-top: 1em;
     margin-left: 0;
     margin-right: 0;
     color: black;
@@ -303,11 +307,11 @@ footer{
     display: flex;
     flex-direction: column;    
     padding: .3em;
-    margin: 1rem;
+    margin: 1.2rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);    
     border-radius: 5px;    
     font-size: .8em;    
-    width: 30%;
+    width: 28%;
     font-weight: bold;    
 }
 #consejos{
@@ -321,7 +325,7 @@ footer{
 }
 .img_caja2{
   display: block;
-  width: 15vw;
+  width: 12vw;
   height: 5vh;      
 }
 
@@ -358,7 +362,7 @@ footer{
     margin:1em;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #97bce3d7; 
+    background-color: #a6c3e2d7; 
 }
 #back-to-top {
     display: none;
