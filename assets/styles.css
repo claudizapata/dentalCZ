@@ -369,8 +369,8 @@ footer{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color:#97bce3d7;
-    color: #97bce3d7;
+    background-color:#a6c3e2d7;
+    color: #a6c3e2d7;
     padding: 10px 15px;
     border-radius: 5px; 
     text-decoration: none;
@@ -378,7 +378,7 @@ footer{
   }
   #back-to-top:hover {
     display: none;
-    background-color: #0056b3;
+    background-color: #a6c3e2d7;
   }
   #to_top{
     display: none;
@@ -413,7 +413,7 @@ footer{
     padding: .3em;    
 }
 .footer_link img{
-  width: 3vw;
+  width: 4vw;
   height: 2vh;  
 }
 .menu__item{
@@ -431,19 +431,21 @@ footer{
     list-style-type: none;
 }
 iframe{
-  width: 90vw;
+  width: 80vw;
 }
 .menu__derechos{
   display: flex;
-  justify-content: center;
-  font-size: .8em;
+  justify-content: center;  
 }
 .maquetado{
-    font-size: .8em;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1em;    
+  justify-content: center;
+  margin: 0;
 }
+
 .whatsapp-icon {
   display: none;
     font-size: 2em;
