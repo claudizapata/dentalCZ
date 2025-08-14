@@ -1,0 +1,93 @@
+* {
+    
+    font-family: 'Montserrat', sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: weight;
+    font-style: normal;
+    box-sizing: border-box;
+  }  
+  
+@media screen and (max-width: 768px) {
+    header {
+    padding: .6em;
+    padding-bottom: .2em;
+    /* margin: 1rem; */
+    margin: 0;   
+    height: auto;
+    background: rgba(189, 212, 237, 0.842);  
+    border-bottom-right-radius: 20px;
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: .7em;
+    }
+    
+    .caja_titulo_header{
+      margin: 0;
+      background-color: rgba(151, 188, 227, 0.842);
+      padding: .3rem;
+      font-weight: bold;
+    }
+    
+     #header_titulo{
+      /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);     */
+      /* border-radius: 10px 10px 0px 0px; */
+      /* background-color: rgba(151, 188, 227, 0.842); */
+      color: black;
+     font-size: 1.2rem;
+     text-align: left;
+     border-top-left-radius: 10px;
+    }
+    #header_dra{
+      background-color: #95acc7;
+      
+      color: white;
+      text-align: left;
+      padding: .3rem;     
+      font-size: .9rem;
+      margin: 0;
+    }
+    #cerrar {
+        display: none;
+        cursor: pointer;
+        justify-content: left;
+    }
+    #subtitulo_consejos{
+        display: flex;
+    }
+.container_consejos{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    
+    margin-top: 1rem;
+    color: rgb(42, 74, 218);
+    background: rgba(167, 243, 126, 0.842);
+    border-top-left-radius: 30px;
+    
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);    
+    border-radius: 5px;     */
+}
+.caja_cepillar{
+    display: flex;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    background-color: white;
+    font-size: .8rem;    
+    width: 80%;
+    font-weight: bold;
+    /* border-bottom: solid 2px black;
+    border-radius: 5px; */
+}
+.linea{
+    width: 60%;
+    height: 3px;
+    background-color: black;    
+}
+
+}

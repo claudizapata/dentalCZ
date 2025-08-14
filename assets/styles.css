@@ -91,6 +91,9 @@
     width: 100%;
     margin-top: 2em;    
 }
+.link_consejos{
+  display: none;
+}
 .container_servicio{
     display: flex;
     justify-content: space-around;
@@ -292,6 +295,18 @@ footer{
 .titulo_about{
   display: none;
 }
+.link_consejos{
+  display: block;
+}
+#titulo_tratam{
+  display: flex;
+  justify-content: center;
+  color: #0056b3;
+  padding: 1rem;
+  align-content: center;
+  font-weight: bold;
+ 
+}
 .container_servicio{
     display: flex;
     flex-wrap: wrap;
@@ -410,6 +425,8 @@ footer{
 }
 .footer_link{
     display: flex;
+    justify-content: left;
+    align-content: center;    
     padding: .3em;    
 }
 .footer_link img{
@@ -435,12 +452,13 @@ iframe{
 }
 .menu__derechos{
   display: flex;
-  justify-content: center;  
+  
+  font-size: 1rem;
 }
 .maquetado{
   display: flex;
   justify-content: center;
-  font-size: 1rem;
+  font-size: .9rem;
   padding: 1em;    
   justify-content: center;
   margin: 0;
