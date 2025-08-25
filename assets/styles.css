@@ -17,8 +17,7 @@
     margin: 0;   
     height: 60vh;
     background: url("../imagenes/bootstrap/consultorio1.jpeg");
-    background-size: cover;  
-    margin: 0;
+    background-size: cover;    
     text-align: center;
     color: white ;
     font-size: 2em;
@@ -329,6 +328,9 @@ footer{
     width: 28%;
     font-weight: bold;    
 }
+.img_servicio:hover{
+  box-shadow: #95acc7;
+}
 #consejos{
   display: none;
 }
@@ -451,9 +453,8 @@ iframe{
   width: 80vw;
 }
 .menu__derechos{
-  display: flex;
-  
-  font-size: 1rem;
+  display: flex;  
+  font-size: .8rem;
 }
 .maquetado{
   display: flex;
